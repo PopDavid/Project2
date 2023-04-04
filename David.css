@@ -1,0 +1,34 @@
+.sakkmezo{
+    border: 3px solid black;
+    padding: 45px;
+    
+}
+.feketemezo{
+    background-color: brown;
+
+}
+.fehermezo{
+    background-color: beige;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+.chessboard .piece{
+    padding: 0px;
+}
+.piece{
+    font-size: 50px;
+}
+body{
+    background-image: url('Hatterkep.jpg');
+}
+.tartalom{
+    background-color: aqua;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: fit-content;
+    height: max-content;
+    padding: 50px;
+}
