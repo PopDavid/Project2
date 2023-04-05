@@ -13,13 +13,13 @@
 table{
     border-collapse: collapse;
     text-align: center;
-    
 }
-.chessboard .piece{
-    padding: 0px;
+.chessboard .pieced{
+    padding: 5px;
 }
 .piece{
-    font-size: 50px;
+    height: 80px;
+    
 }
 body{
     background-image: url('Hatterkep.jpg');
