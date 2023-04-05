@@ -1,10 +1,21 @@
+/* weboldal kinézete */
+
+.cim{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+}    
+
+/* sakktábla felállítása */
+
 .sakkmezo{
-    border: 3px solid black;
-    padding: 45px;
+    border: 1.5px solid black;
+    padding: 0px;
     
 }
 .feketemezo{
-    background-color: brown;
+    background-color: rgb(43, 139, 72);
 
 }
 .fehermezo{
@@ -15,20 +26,31 @@ table{
     text-align: center;
 }
 .chessboard .pieced{
-    padding: 5px;
+    padding: 2px;
 }
 .piece{
-    height: 80px;
-    
+    height: 27px;
+    width: 25px;
 }
+.gyalog{
+    width: 19px !important;
+    height: 23px !important;
+}
+
+
+/* sakktábla vége */
+
 body{
-    background-image: url('Hatterkep.jpg');
+    background-image: url('Hatterkep.png');
+    padding-left:75px;
+    padding-right:75px;
 }
 .tartalom{
-    background-color: aqua;
-    margin-right: 100px;
-    margin-left: 100px;
-    width: fit-content;
-    height: max-content;
-    padding: 50px;
+    background-image: url('Hatterkep2.png');
+    padding-left: 50px;
+    padding-right: 50px;
+}
+td{
+    width: 25px;
+    height: 25px;
 }

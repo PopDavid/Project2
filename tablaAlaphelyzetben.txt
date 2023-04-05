@@ -1,0 +1,90 @@
+<table class="chessboard">
+            <tr>
+                <!-- 8 -->
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feketebastya.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feketehuszar.png" alt=""></td>
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feketefuto.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feketekiralyno.png" alt=""></td>
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feketekirály.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feketefuto.png" alt=""></td>
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feketehuszar.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feketebastya.png" alt=""></td>
+            </tr>
+            <tr>
+                <!-- 7 -->
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/feketegyalog.png"  class="piece" alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/feketegyalog.png" class="piece " alt=""></td>
+            </tr>
+            <tr>
+                <!-- 6 -->
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+            </tr>
+            <tr>
+                <!-- 5 -->
+                <td class="pieced sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+            </tr>
+            <tr>
+                <!-- 3 -->
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+                <td class="sakkmezo fehermezo"></td>
+                <td class="sakkmezo feketemezo"></td>
+            </tr>
+            <tr>
+                <!-- 2 -->
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/fehergyalog.png"  class="piece" alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo feketemezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+                <td class="sakkmezo fehermezo pieced"><img src="figurák/fehergyalog.png" class="piece " alt=""></td>
+            </tr>
+            <tr>
+                <!-- 1 -->
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feherbastya.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feherhuszar.png" alt=""></td>
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feherfuto.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/Feherkiralyno.png" alt=""></td>
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feherKirány.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feherfuto.png" alt=""></td>
+                <td class="pieced sakkmezo fehermezo"><img class="piece" src="figurák/feherhuszar.png" alt=""></td>
+                <td class="pieced sakkmezo feketemezo"><img class="piece" src="figurák/feherbastya.png" alt=""></td>
+            </tr>
+        </table>
