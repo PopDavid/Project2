@@ -59,6 +59,9 @@ body{
     padding-right: 50px;
 }
 .enabled{
-    cursor: pointer;
+    cursor: progress;
     pointer-events: all !important;
+}
+.cursordefault{
+    cursor: default;
 }
