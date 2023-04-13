@@ -6,6 +6,9 @@
     font-size: 32px;
     font-weight: bold;
 }    
+p{
+    color: white;
+}
 
 /* sakktábla felállítása */
 
@@ -37,6 +40,10 @@ table{
     width: 19px !important;
     height: 23px !important;
 }
+td{
+    width: 25px;
+    height: 30px;
+}
 
 
 /* sakktábla vége */
@@ -51,7 +58,7 @@ body{
     padding-left: 50px;
     padding-right: 50px;
 }
-td{
-    width: 25px;
-    height: 25px;
+.enabled{
+    cursor: pointer;
+    pointer-events: all !important;
 }
