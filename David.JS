@@ -18,3 +18,6 @@ feketekiraly = document.querySelector('.feketekiraly').src
 function click2(){
     alert(feketekiralyno)
 }
+function RejtettOldalonBtn(){
+    alert('Eljutottál az első lépéshez a pénthez jutás felé. ')
+}
