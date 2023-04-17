@@ -1,23 +1,35 @@
-knofeherbastya = document.querySelector('.knofeherbastya').src
-knofeherhuszar = document.querySelector('.knofeherhuszar').src
-knofeherfuto = document.querySelector('.knofeherfuto').src
-kfeherbastya = document.querySelector('.kfeherbastya').src
-kfeherhuszar = document.querySelector('.kfeherhuszar').src
-kfeherfuto = document.querySelector('.kfeherfuto').src
-feherkiralyno = document.querySelector('.feherkiralyno').src
-feherkiraly = document.querySelector('.feherkiraly').src
-knofeketebastya = document.querySelector('.knofeketebastya').src
-knofeketehuszar = document.querySelector('.knofeketehuszar').src
-knofeketefuto = document.querySelector('.knofeketefuto').src
-kfeketebastya = document.querySelector('.kfeketebastya').src
-kfeketehuszar = document.querySelector('.kfeketehuszar').src
-kfeketefuto = document.querySelector('.kfeketefuto').src
-feketekiralyno = document.querySelector('.feketekiralyno').src
-feketekiraly = document.querySelector('.feketekiraly').src
+var knofeherbastya = document.querySelector('.knofeherbastya').value 
+var knofeherhuszar = document.querySelector('.knofeherhuszar').value
+var knofeherfuto = document.querySelector('.knofeherfuto').value
+var kfeherbastya = document.querySelector('.kfeherbastya').value
+var kfeherhuszar = document.querySelector('.kfeherhuszar').value
+var kfeherfuto = document.querySelector('.kfeherfuto').value
+var feherkiralyno = document.querySelector('.feherkiralyno').value
+var feherkiraly = document.querySelector('.feherkiraly').value
+var knofeketebastya = document.querySelector('.knofeketebastya').value
+var knofeketehuszar = document.querySelector('.knofeketehuszar').value
+var knofeketefuto = document.querySelector('.knofeketefuto').value
+var kfeketebastya = document.querySelector('.kfeketebastya').value
+var kfeketehuszar = document.querySelector('.kfeketehuszar').value
+var kfeketefuto = document.querySelector('.kfeketefuto').value
+var feketekiralyno = document.querySelector('.feketekiralyno').value
+var feketekiraly = document.querySelector('.feketekiraly').value
 
-function click2(){
+console.log(knofeketebastya)
+
+function click(){
     alert(feketekiralyno)
 }
 function RejtettOldalonBtn(){
-    alert('Eljutottál az első lépéshez a pénthez jutás felé. ')
+    if  (feketekiraly == 'feketekiraly'){
+        document.getElementById('valami21').onclick=semmi()
+    } else {
+        console.log('kfenakfnaepf')
+    }
+}
+function valami(){
+    alert('Eljutottál az első lépéshez a pénthez jutás felé.')
+}
+function semmi(){
+    alert('semmifakfh')
 }

@@ -7,6 +7,7 @@ button{
 
 p{
     color: white;
+    font-size: 20px;
 }
 h6{
     font-size: 200px;
@@ -14,6 +15,10 @@ h6{
 }
 
 /* sakktábla felállítása */
+td{
+    width: 25px;
+    height: 30px;
+}
 
 .sakkmezo{
     border: 1.5px solid black;
@@ -42,10 +47,6 @@ table{
 .gyalog{
     width: 19px !important;
     height: 23px !important;
-}
-td{
-    width: 25px;
-    height: 30px;
 }
 
 

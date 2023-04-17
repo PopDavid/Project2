@@ -1,7 +1,7 @@
 # **Csoportmunka**
 
-## **Téma**
-<!-- ### Témas: -->
+## **Téma: sakk**
+
 
 ## **Tagok**
 - **Dávid** 
@@ -14,4 +14,17 @@
 ### Dávid hosztolta a git repot 
 
 ## **Oldalak**
+- **Nyító** 
+- **Megnyitáselmélet** 
+- **Meccseim**
+- **Quiz** 
+- **Megemlítendő meccsek** 
+- **Puzzle** 
+
+
+
+
+
+
+
 
