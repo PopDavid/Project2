@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="tamas.css">
         <link rel="stylesheet" href="David.css">
         <link rel="stylesheet" href="egyesitett.css">
-        
         <title>Index</title>
     </head>
 <body>
@@ -38,9 +37,13 @@
                 <a class="nav-link disabled" href="xxxxxxxxxxxxxxxxxx"></a>
               </li>
             </ul>
+            <li class="nav-item">
+              <input style="pointer-events: fill;" value="valami" type="text" id="jelszo" onchange="Jelszobeolvasas()">
+              <button type="button" class="btn btn-primary" onclick="passwordBeolvasas()" >Jelszó</button>
+            </li>
           </div>
       </nav>
-    <div class="tartalom mx-auto"> 
+    <div style="visibility: hidden;" id="tartalom" class="tartalom mx-auto"> 
         <p class="cim">Kezdőoldal</p>
         <div class="row">
         <table class="chessboard col-2 "->
@@ -141,6 +144,7 @@
         
         <button class="btn btn-primary " onclick="click()">test gomb</button>
     </div>
+  </div>
         
                
 

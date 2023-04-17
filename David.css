@@ -83,3 +83,6 @@ body{
     height: 150px;
     font-size: 50px;
 }
+.nav-item{
+    list-style: none;
+}
