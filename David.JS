@@ -24,14 +24,11 @@ function RejtettOldalonBtn(){
 };
 function passwordBeolvasas(){
     var password = document.getElementById('jelszo').value;
-    if (password === 'GaborGyereSakk'){
-        document.getElementById('tartalom').style.visibility= 'visible';
+    if (password === 'GaborGyereSakk.02'){
+        document.getElementById('tartalom').style.visibility = 'visible';
+        document.getElementById('nav-itemek').style.pointerEvents = 'fill';
     }
     else{
-        alert(password)
+        alert('Ne próbálkozz, nem fog menni')
     }
-}
-
-function Jelszobeolvasas(){
-    console.log(password)
 }
