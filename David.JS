@@ -14,7 +14,7 @@
 // let kfeketefuto = document.querySelector('.kfeketefuto').value
 // let feketekiralyno = document.querySelector('.feketekiralyno').value
 // let feketekiraly = document.querySelector('.feketekiraly').value
-console.log(password);
+console.log('GaborGyereSakk.02');
 
 function click(){
     alert(feketekiralyno)
