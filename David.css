@@ -62,7 +62,7 @@ body{
     background-image: url('Hatterkep2.png');
     padding-left: 50px;
     padding-right: 50px;
-    /* visibility: hidden; */
+    pointer-events: all !important;
 }
 .enabled{
     cursor: progress;
