@@ -1,6 +1,12 @@
-button{
-    height: 50px;
-    width: 100px;
+.button1{
+    height: 75px !important ;
+    width: 150px !important ;
+    font-size: large;
+}
+.button2{
+    height: 10px !important ;
+    width: 20px !important ;
+    font-size: large;
 }
 
 /* weboldal kinézete */
@@ -15,9 +21,13 @@ h6{
 }
 
 /* sakktábla felállítása */
+.chessboard{
+    width: 20px;
+    margin: 0px auto;
+}
 td{
     width: 25px;
-    height: 30px;
+    height: 60px;
 }
 
 table{
@@ -37,16 +47,16 @@ table{
     background-color: beige;
 }
 .chessboard .pieced{
-    padding: 2px;
+    padding: 4px;
 }
 .piece{
-    height: 27px;
-    width: 25px;
+    height: 56px;
+    width: 52px;
     margin: 0px;
 }
 .gyalog{
-    width: 19px !important;
-    height: 23px !important;
+    width: 38px !important;
+    height: 48px !important;
 }
 
 
@@ -77,8 +87,15 @@ body{
     font-size: 32px;
     font-weight: bold;
 }
+.width1{
+    width: 250px;
+    height: 25px;
+}
+.width2{
+    width: auto;
+}
 
-/* idk */
+/* nav */
 #rejtettgomb{
     width: 375px;
     height: 150px;
@@ -94,4 +111,13 @@ body{
 .nav-gomb{
     height: 25px;
     padding-top: 0;
+}
+/* megnyitás */
+.Megny{
+    margin: auto;
+}
+.alcim{
+    text-align: center;
+    color: aqua;
+    font-size: 50px;
 }

@@ -65,14 +65,11 @@
 
 function click(){
     alert("vejbh")
-    // a1.scr = ' '
 };
 // Jelszó
 console.log('GyereGaborSakkozniVPingpong.03');
 
-// function click(){
-//     alert(feketekiralyno)
-// };
+
 function RejtettOldalonBtn(){
     alert('Eljutottál az első lépéshez a pénthez jutás felé.')
 };
@@ -88,3 +85,12 @@ function passwordBeolvasas(){
         alert('Ne próbálkozz, nem fog menni')
     }
 }
+// London
+let Londonlepes = 0
+function londonVissza(){
+    Londonlepes - 1
+}
+function londonTovabb(){
+    Londonlepes + 1
+}
+console.log(Londonlepes)

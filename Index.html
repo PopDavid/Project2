@@ -47,10 +47,9 @@
                 </div>
             </div>
       </nav>
-    <div style="visibility: hidden;" id="tartalom" class="tartalom mx-auto"> 
-        <p class="cim">Kezdőoldal</p>
-        <div class="row">
-        <table style="width: 20px;" class="chessboard "->
+    <div style="visibility: hidden;" id="tartalom" class="tartalom"> 
+        <p class="cim mx-auto">Kezdőoldal</p>
+        <table style="margin:20px !important" class="chessboard "->
                 <!-- 8 -->
                 <td class="pieced sakkmezo feketemezo"><img  id="a8" class="piece" src="figurák/feketebastya.png" ></td>
                 <td class="pieced sakkmezo fehermezo"><img id="b8" class="piece" src="figurák/feketehuszar.png" ></td>
@@ -139,28 +138,37 @@
                 <td class="pieced sakkmezo feketemezo"><img id="h1" class=" piece" src="figurák/feherbastya.png" ></td>
             </tr>
             </table>  
-        <div class="col-10">
+        <div class="width2">
           <p>Ezen az oldalona sakk elméle</p>
 
         </div>
-        <hr>
+        <br>
         
-        <button class="btn btn-primary" onclick="click()">test gomb</button>
-    </div>
+        <button style="pointer-events: all !important;" class="btn btn-primary" onclick="click()">test gomb</button>
+          
+        
+        <button onclick="myFunction()">Try it</button>
+      
+      <script>
+      function myFunction() {
+        alert("I am an alert box!");
+      }
+      </script>
+      <script>
+        function click(){
+          alert("vejbh");
+        }
+      </script>
   </div>
-        
+       
+
                
 
 
-        <script src="David.JS" > </script>
-        <script src="tamas.JS" ></script>
-        <script src="Boostrap/bootstrap.bundle.min.js" ></script>
-        <script src="egyesitett.JS" ></script>  
-        <script>
-        function click(){
-          alert("vejbh")
-          // a1.scr = ' '
-      };</script>
+  <script src="David.JS" > </script>
+  <script src="tamas.JS" ></script>
+  <script src="Boostrap/bootstrap.bundle.min.js" ></script>
+  <script src="egyesitett.JS" ></script>  
         
     </body>
     </html>
