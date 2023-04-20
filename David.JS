@@ -82,7 +82,6 @@ function click(){
     alert("vejbh")
 };
 // Jelszó //
-console.log('GyereGaborSakkozniVPingpong.03');
 
 
 function RejtettOldalonBtn(){
@@ -99,120 +98,6 @@ function passwordBeolvasas(){
         document.getElementById('nav-itemek').style.pointerEvents = 'none';
         alert('Ne próbálkozz, nem fog menni')
     }
-}
-// London //
-let Londonlepes = 0
-function londonVissza(){
-    Londonlepes -= 1
-}
-function londonTovabb(){
-    Londonlepes += 1
-}
-function londonMegny(){
-    if (Londonlepes == 0){
-        document.getElementById('d4').src = fehsemmi
-        document.getElementById('d2').src = fehergyalog
-    }
-    if (Londonlepes == 1){
-        document.getElementById('d4').src = fehergyalog
-        document.getElementById('d2').src = fehsemmi
-        document.getElementById('d5').src = feksemmi
-        document.getElementById('d7').src = feketegyalog 
-    } 
-    if (Londonlepes == 2){
-        document.getElementById('d5').src = feketegyalog
-        document.getElementById('d7').src = feksemmi
-        document.getElementById('f4').src = fehsemmi
-        document.getElementById('c1').src = feherfuto
-    } 
-    if (Londonlepes == 3){
-        document.getElementById('f4').src = feherfuto
-        document.getElementById('c1').src = fehsemmi
-        document.getElementById('f6').src = fehsemmi
-        document.getElementById('g8').src = feketehuszar
-    } 
-    if (Londonlepes == 4){
-        document.getElementById('f6').src = feketehuszar
-        document.getElementById('g8').src = feksemmi
-        document.getElementById('e3').src = fehsemmi
-        document.getElementById('e2').src = fehergyalog
-    } 
-    if (Londonlepes == 5){
-        document.getElementById('e3').src = fehergyalog
-        document.getElementById('e2').src = feksemmi
-        document.getElementById('c5').src = fehsemmi
-        document.getElementById('c7').src = feketegyalog
-    } 
-    if (Londonlepes == 6){
-        document.getElementById('c5').src = feketegyalog
-        document.getElementById('c7').src = fehsemmi
-        document.getElementById('f3').src = feksemmi
-        document.getElementById('g1').src = feherhuszar
-    } 
-    if (Londonlepes == 7){
-        document.getElementById('f3').src = feherhuszar
-        document.getElementById('g1').src = fehsemmi
-        document.getElementById('b8').src = feketehuszar
-        document.getElementById('c6').src = feksemmi
-    } 
-    if (Londonlepes == 8){
-        document.getElementById('b8').src = fehsemmi
-        document.getElementById('c6').src = feketehuszar   
-        document.getElementById('d2').src = fehsemmi
-        document.getElementById('b1').src = feherhuszar
-    } 
-    if (Londonlepes == 9){
-        document.getElementById('d2').src = feherhuszar
-        document.getElementById('b1').src = feksemmi
-        document.getElementById('e6').src = feksemmi
-        document.getElementById('e7').src = feketegyalog 
-    } 
-    if (Londonlepes == 10){
-        document.getElementById('e6').src = feketegyalog
-        document.getElementById('e7').src = fehsemmi
-        document.getElementById('c2').src = fehergyalog
-        document.getElementById('c3').src = feksemmi
-    }    
-    if (Londonlepes == 11){
-        document.getElementById('c3').src = fehergyalog
-        document.getElementById('c2').src = feksemmi
-        document.getElementById('e7').src = fehsemmi
-        document.getElementById('f8').src = feketefuto 
-    }    
-    if (Londonlepes == 12){
-        document.getElementById('e7').src = feketefuto
-        document.getElementById('f8').src = fehsemmi
-        document.getElementById('d3').src = feksemmi
-        document.getElementById('f1').src = feherfuto 
-    }    
-    if (Londonlepes == 13){
-        document.getElementById('d3').src = feherfuto
-        document.getElementById('f1').src = feksemmi
-
-        document.getElementById('g8').src = feksemmi
-        document.getElementById('e8').src = feketekiraly
-        document.getElementById('h8').src = feketebastya
-        document.getElementById('f8').src = fehsemmi
-    }    
-    if (Londonlepes == 14){
-        document.getElementById('e8').src = feksemmi
-        document.getElementById('g8').src = feketekiraly
-        document.getElementById('f8').src = feketebastya
-        document.getElementById('h8').src = fehsemmi
-    }    
-        if (Londonlepes == 15){
-            document.getElementById('e6').src = feketegyalog
-            document.getElementById('e5').src = feksemmi
-        }    
-    if (Londonlepes == xxxxxxxx){
-        document.getElementById('e6').src = feketegyalog
-        document.getElementById('e5').src = feksemmi
-    }    
-    if (Londonlepes == xxxxxxxx){
-        document.getElementById('e6').src = feketegyalog
-        document.getElementById('e5').src = feksemmi
-    }   
-
 }
 function LondonValt(){
     document.getElementById('londonszam').innerHTML = Londonlepes

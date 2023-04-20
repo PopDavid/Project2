@@ -64,7 +64,11 @@ table{
 /* sakktábla vége */
 
 body{
-    background-image: url('Hatterkep.png');
+    background-image: url('Hatterkep4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* BACK */
     padding-left:75px;
     padding-right:75px;
     color: white;
@@ -121,4 +125,7 @@ body{
     text-align: center;
     color: aqua;
     font-size: 50px;
+}
+.nav-hatterszin{
+    background-color: white;
 }
