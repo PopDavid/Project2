@@ -143,7 +143,7 @@ function londonMegny(){
         document.querySelector('#london #c1').src = fehsemmi
         document.querySelector('#london #a1').src = feherbastya
         document.querySelector('#london #d1').src = feksemmi
-        document.querySelector('#london #londonTovabb').innerHTML = "Tovább"
+        document.querySelector('#londonTovabb').innerHTML = "Tovább"
     }
     if (Londonlepes == 21){
         document.querySelector('#london #e1').src = fehsemmi
