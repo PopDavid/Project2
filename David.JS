@@ -35,3 +35,21 @@ function passwordBeolvasas(){
         alert('Ne próbálkozz, nem fog menni')
     }
 }
+// fehérrel rövidsánc: 
+    // document.querySelector('#xxxxxxxxxxxx #e8').src = feketekiraly;
+    // document.querySelector('#xxxxxxxxxxxx #g8').src = feksemmi;    
+    // document.querySelector('#xxxxxxxxxxxx #f8').src = fehsemmi;
+    // document.querySelector('#xxxxxxxxxxxx #h8').src = feketebastya;
+    // document.querySelector('#xxxxxxxxxxxx #g8').src = feketekiraly;
+    // document.querySelector('#xxxxxxxxxxxx #e8').src = feksemmi;    
+    // document.querySelector('#xxxxxxxxxxxx #h8').src = fehsemmi;
+    // document.querySelector('#xxxxxxxxxxxx #f8').src = feketebastya;
+// feketével rövidsánc: 
+    // document.querySelector('#xxxxxxxxxxxx #e8').src = feketekiraly;
+    // document.querySelector('#xxxxxxxxxxxx #g8').src = feksemmi;    
+    // document.querySelector('#xxxxxxxxxxxx #f8').src = fehsemmi;
+    // document.querySelector('#xxxxxxxxxxxx #h8').src = feketebastya;
+    // document.querySelector('#xxxxxxxxxxxx #g8').src = feketekiraly;
+    // document.querySelector('#xxxxxxxxxxxx #e8').src = feksemmi;    
+    // document.querySelector('#xxxxxxxxxxxx #h8').src = fehsemmi;
+    // document.querySelector('#xxxxxxxxxxxx #f8').src = feketebastya;

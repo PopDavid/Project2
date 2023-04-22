@@ -125,6 +125,7 @@ body{
     text-align: center;
     color: aqua;
     font-size: 50px;
+    margin-top: 75px;
 }
 .nav-hatterszin{
     background-color: white;
@@ -133,7 +134,7 @@ body{
     padding: 5px;
 }
 .select{
-    margin-left: 600px;
+    margin-left: 543px;
     margin-bottom: 25px;
     padding: 5px;
     border-radius: 10px;

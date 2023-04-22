@@ -136,6 +136,7 @@ function viennaMegny(){
         document.querySelector('#vienna #c7').src = feketegyalog
         document.querySelector('#vienna #d7').src = feketegyalog     
         document.querySelector('#vienna #e7').src = feketegyalog
+        document.querySelector('#vienna #f7').src = feketegyalog
         document.querySelector('#vienna #c3').src = fehsemmi
         document.querySelector('#vienna #e3').src = fehsemmi
         document.querySelector('#vienna #f4').src = fehsemmi
@@ -145,7 +146,7 @@ function viennaMegny(){
         document.querySelector('#vienna #d5').src = feksemmi
         document.querySelector('#vienna #e6').src = feksemmi
         document.querySelector('#vienna #h7').src = feketegyalog
-        document.querySelector('#vienna #h6').src = feksemmi
+        document.querySelector('#vienna #h6').src = fehsemmi
 
         viennalepes = 0
     }

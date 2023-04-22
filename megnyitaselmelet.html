@@ -45,7 +45,8 @@
       <p class="cim">Megnyitáselmélet</p>
         <p class="text-center">Ezen az oldalon a különböző megnyitások elméletét találhatuk meg</p>
         <!-- London -->
-        <p id="londonszam" class="alcim">London</p>
+    
+    <p style="margin-top: 0px;" id="londonszam" class="alcim">London</p>
         <div class="row">
           <button class="col-3 btn btn-primary m-auto button1" id="londonVissza" onclick="londonVissza(); londonMegny()">Vissza</button>
           <table id="london" class="m-auto chessboard">
@@ -238,8 +239,10 @@
         </div>
         <!-- Fried liver -->
         <p id="friedLiverszam" class="alcim">Fried liver</p>
-        <select class="select" id="friedLiverlinekulonvalaszto">
+        <select class="select text-center" id="friedLiverlinekulonvalaszto">
           <option class="option" value="eloreAKiralyt">Előre a királyt</option>
+          <option class="option" value="gyalogaldozat">Gyalogáldozat (fekete)</option>
+          <option class="option" selected value="fovonal">Fővonal</option>
         </select>
         <div class="row">
           <button class="col-3 btn btn-primary m-auto button1" id="friedLiverVissza" onclick="friedLiverVissza(); friedLiverMegny()">Vissza</button>
@@ -333,7 +336,7 @@
                 </tr>
           </table>  
           <button class=" m-auto col-3 btn btn-primary button1" id="friedLiverTovabb" onclick="friedLiverTovabb(); friedLiverMegny()">Tovább</button>
-          <button class="btn btn-primary button1" onclick="friedLiverValt()">debugger</button>
+          <!-- <button class="btn btn-primary button1" onclick="friedLiverValt()">debugger</button> -->
         </div>
     </div>
         
