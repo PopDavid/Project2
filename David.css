@@ -129,3 +129,14 @@ body{
 .nav-hatterszin{
     background-color: white;
 }
+.option{
+    padding: 5px;
+}
+.select{
+    margin-left: 600px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    color: wheat;
+    background-color: darkblue;
+}

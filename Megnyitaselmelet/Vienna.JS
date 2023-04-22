@@ -13,7 +13,6 @@ function viennaMegny(){
     if (viennalepes == 0){
         document.querySelector('#vienna #e2').src = fehergyalog;    
         document.querySelector('#vienna #e4').src = feksemmi;
-
     }
     if (viennalepes == 1){
         document.querySelector('#vienna #e4').src = fehergyalog;    
