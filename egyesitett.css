@@ -1,7 +1,13 @@
 html{
     overflow-x: hidden;
 }
-
+body{
+    background-image: url('pics/Hatterkep.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* kérdéses */
+}
 *{
     font-family: -apple-system,
 }
@@ -54,6 +60,7 @@ html{
 
 .index-text a{
     font-size: 1.4rem;
+    text-decoration: none;
 }
 
 .card-kep1{
@@ -103,6 +110,7 @@ html{
 .cad-text{
     color: white;
     width: 100%;
+    margin-right: 0px;
 }
 
 .cad-text h1{
@@ -204,4 +212,7 @@ html{
 
 .ps-10{
     padding-left: 5rem;
+}
+.macbook{
+    height: 350px;
 }
