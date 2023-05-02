@@ -1,8 +1,12 @@
 html{
     overflow-x: hidden;
 }
+.card{
+    background-color: #333;
+    color: white;
+}
 body{
-    background-image: url('pics/Hatterkep.png');
+    background-image: url('pics/Hatterkepek/bg-4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +27,7 @@ body{
 }
 
 .kep1{
-    background-image: url(pics/iPhone14fekete.png);
+    background-image: url('pics/iPhone14fekete.png');
     min-height:690px;
     width: 100%;
     background-size: cover;
@@ -32,7 +36,7 @@ body{
 }
 
 .kep2{
-    background-image: url(pics/iPhone14feher.png);
+    background-image: url('pics/iPhone14feher.png');
     min-height:690px;
     width: 100%;
     background-size: cover;
@@ -41,7 +45,7 @@ body{
 }
 
 .kep3{
-    background-image: url(pics/watchfekete.png);
+    background-image: url('pics/watchfekete.png');
     min-height:690px;
     width: 100%;
     background-size: cover;
@@ -64,7 +68,7 @@ body{
 }
 
 .card-kep1{
-    background-image: url(pics/airpods.png);
+    background-image: url('pics/airpods.png');
     min-height: 580px;
     max-width: 928px;
     width: 100%;
